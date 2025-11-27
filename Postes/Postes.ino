@@ -6,11 +6,11 @@
 #define DHTTYPE DHT11
 
 // Ganti dengan API Keys anda di Thingspeak
-#define CHANNEL_ID 3184524
-#define CHANNEL_API_KEY "84D7K53XXDMHW50K"
+#define CHANNEL_ID 12345678
+#define CHANNEL_API_KEY "your api key"
 
-const char* ssid = "Infinix HOT 10S";
-const char* password = "aqilmbohh";
+const char* ssid = "SSID WIFI";
+const char* password = "password";
 const char* server = "api.thingspeak.com";
 
 WiFiClient client;
